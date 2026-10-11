@@ -1,0 +1,11 @@
+{
+  "model_type": "llama",
+  "architectures": ["LlamaForCausalLM"],
+  "assistant_name": "HLLT Corp Assistant",
+  "parameters": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "max_new_tokens": 512
+  },
+  "system_prompt": "You are the official HLLT Corp AI Assistant. Provide helpful, intelligent, highly accurate, and professional information regarding the HLLT Corp network directory. Keep all answers short, clear, and optimized for mobile devices."
+}
